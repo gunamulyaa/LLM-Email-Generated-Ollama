@@ -1,3 +1,24 @@
-pandas
 beautifulsoup4
 lxml
+
+# Core
+python-dotenv>=1.0.0
+
+# FastAPI API
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# Data processing
+pandas>=2.2.0
+
+# LangChain core (VERSI AMAN)
+langchain>=0.2.16
+langchain-core>=0.2.38
+langchain-community>=0.2.16
+
+# Ollama integration
+langchain-ollama>=0.1.7
+
+# Vector DB (tanpa faiss)
+chromadb>=0.5.0
+langchain-chroma>=0.1.4
